@@ -1,0 +1,10 @@
+let a = +prompt("Введите число");
+function positiveOrNegative(a) {
+if (a > 0) {
+return("Число положительное");
+}
+else if (a < 0) {
+return("Число отрицательное");
+}
+}
+alert(positiveOrNegative(a));
